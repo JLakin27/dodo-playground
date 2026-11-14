@@ -1,17 +1,14 @@
-OUR DODO — PLAYGROUND V2
+OUR DODO PLAYGROUND V3 — Tuned animations
 
-Upload the CONTENTS of this folder (15 files in total) into your dodo-playground GitHub repository.
-This REPLACES the previous sprite-sheet playground. Use Add file > Upload files; drag all 15 files.
-Commit changes. GitHub Pages is already configured; you do not need to set it up again.
-If changes do not appear, hard-refresh the website (Ctrl+Shift+R).
+Upload all 14 files to the root of your existing dodo-playground GitHub repository.
+Replace matching files. The old manifest.json is not needed.
 
-New in V2:
-- Individual 60–90 ms frame timing; relative speed adjustment
-- Short reactions play once, not endlessly
-- Multiple behaviour sequences (Curious, Happy, Snack, Flight school)
-- Welcome sequence with pauses and a little personality
-- requestAnimationFrame animation clock
-- More compact tiled sprite sheets for better mobile compatibility
+Improvements:
+- Welcome: walk → run → walk → peck → jump → look at you → idle.
+- Happy dodo retained; Curious, Snack Time and Flight School removed.
+- Most motions run ~15 ms faster than V2.
+- Peck ~10 ms faster, jump ~10 ms faster, squawk unchanged, dramatic flop ~5 ms faster.
+- Actions and welcome return to idle automatically, including the final jump.
+- Speed slider is a fine-tune offset, defaults to the custom timings above.
 
-This is ONLY a standalone playground. It does not change Our Space or Firebase.
-The sprite sheets contain purchased artwork; don't redistribute the source artwork package.
+This is a standalone testing page, not an update to Our Space or Firebase.
