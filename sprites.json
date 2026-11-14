@@ -1,0 +1,68 @@
+{
+  "base": {
+    "src": "./base.webp",
+    "frameWidth": 525,
+    "frameHeight": 522,
+    "frameCount": 10
+  },
+  "die": {
+    "src": "./die.webp",
+    "frameWidth": 525,
+    "frameHeight": 522,
+    "frameCount": 5
+  },
+  "fly": {
+    "src": "./fly.webp",
+    "frameWidth": 525,
+    "frameHeight": 522,
+    "frameCount": 12
+  },
+  "idle": {
+    "src": "./idle.webp",
+    "frameWidth": 525,
+    "frameHeight": 522,
+    "frameCount": 20
+  },
+  "idle_look_at_camera": {
+    "src": "./idle_look_at_camera.webp",
+    "frameWidth": 525,
+    "frameHeight": 522,
+    "frameCount": 20
+  },
+  "jump": {
+    "src": "./jump.webp",
+    "frameWidth": 525,
+    "frameHeight": 522,
+    "frameCount": 11
+  },
+  "peck": {
+    "src": "./peck.webp",
+    "frameWidth": 525,
+    "frameHeight": 522,
+    "frameCount": 10
+  },
+  "run": {
+    "src": "./run.webp",
+    "frameWidth": 525,
+    "frameHeight": 522,
+    "frameCount": 12
+  },
+  "squawk": {
+    "src": "./squawk.webp",
+    "frameWidth": 525,
+    "frameHeight": 522,
+    "frameCount": 6
+  },
+  "walk": {
+    "src": "./walk.webp",
+    "frameWidth": 525,
+    "frameHeight": 522,
+    "frameCount": 12
+  },
+  "whacked": {
+    "src": "./whacked.webp",
+    "frameWidth": 525,
+    "frameHeight": 522,
+    "frameCount": 16
+  }
+}
