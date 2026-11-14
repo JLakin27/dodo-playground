@@ -1,21 +1,17 @@
-OUR DODO — SPRITE PLAYGROUND
+OUR DODO — PLAYGROUND V2
 
-This is the easier GitHub-upload version.
+Upload the CONTENTS of this folder (15 files in total) into your dodo-playground GitHub repository.
+This REPLACES the previous sprite-sheet playground. Use Add file > Upload files; drag all 15 files.
+Commit changes. GitHub Pages is already configured; you do not need to set it up again.
+If changes do not appear, hard-refresh the website (Ctrl+Shift+R).
 
-Upload ALL files from this folder to a new GitHub repository.
-You should see files like:
-- index.html
-- manifest.json
-- sprites.json
-- idle.webp
-- walk.webp
-- run.webp
-...and the other .webp sprite sheets.
+New in V2:
+- Individual 60–90 ms frame timing; relative speed adjustment
+- Short reactions play once, not endlessly
+- Multiple behaviour sequences (Curious, Happy, Snack, Flight school)
+- Welcome sequence with pauses and a little personality
+- requestAnimationFrame animation clock
+- More compact tiled sprite sheets for better mobile compatibility
 
-Important:
-- Do NOT upload the original purchased ZIP to GitHub.
-- index.html must stay at the root of the repo.
-- Once uploaded, turn on GitHub Pages from Settings > Pages > Deploy from a branch > main > /(root).
-
-Then open:
-https://YOUR-USERNAME.github.io/YOUR-REPO-NAME/
+This is ONLY a standalone playground. It does not change Our Space or Firebase.
+The sprite sheets contain purchased artwork; don't redistribute the source artwork package.
