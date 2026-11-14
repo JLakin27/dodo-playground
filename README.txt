@@ -1,14 +1,13 @@
-OUR DODO PLAYGROUND V3 — Tuned animations
+OUR DODO — PLAYGROUND V4
 
-Upload all 14 files to the root of your existing dodo-playground GitHub repository.
-Replace matching files. The old manifest.json is not needed.
+Upload the 14 files in this ZIP to the ROOT of your existing dodo-playground GitHub repository. Replace matching files. There is no need to change GitHub Pages settings, Firebase, or Our Space.
 
-Improvements:
-- Welcome: walk → run → walk → peck → jump → look at you → idle.
-- Happy dodo retained; Curious, Snack Time and Flight School removed.
-- Most motions run ~15 ms faster than V2.
-- Peck ~10 ms faster, jump ~10 ms faster, squawk unchanged, dramatic flop ~5 ms faster.
-- Actions and welcome return to idle automatically, including the final jump.
-- Speed slider is a fine-tune offset, defaults to the custom timings above.
+Changes:
+- App-style entrance: run in from right -> slow to walk -> jump at centre -> look at you -> walk -> run off left.
+- About 2.5 seconds, skippable, always finishes in idle.
+- Everyday dodo idles most of the time and periodically looks at you.
+- Happy Dodo remains. Tap him for a short random action.
+- Reduced-motion users skip the elaborate entrance.
+- This remains a standalone playground; PWA startup triggers will be implemented in Our Space later.
 
-This is a standalone testing page, not an update to Our Space or Firebase.
+Open https://jlakin27.github.io/dodo-playground/ after committing.
